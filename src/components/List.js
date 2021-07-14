@@ -1,4 +1,5 @@
 import GlobalStyles from "../styles/GlobalStyles";
+import { checkmarkColor } from "../styles/GlobalStyles";
 import { FaCheckCircle } from "react-icons/fa";
 
 export default function List({info}) {
@@ -10,7 +11,7 @@ export default function List({info}) {
                 <div>
                     <div className="list">
                         <div className="left_side">
-                            <FaCheckCircle style={{color: "#2469b3"}} />
+                            <FaCheckCircle style={{color: checkmarkColor}} />
                             <p className="identify" >{idf}</p>
                             <p className="mail_bold">{mail}</p>
                         </div>

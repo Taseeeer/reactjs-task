@@ -57,10 +57,14 @@ const GlobalStyles = createGlobalStyle`
         font-size: 1rem;
     }
 
-    @media screen and (max-width: 1650px) { 
+    @media screen and (max-width: 570px) { 
         .search_input {
-            width: 1250px;
-        } 
+            width: 270px;
+        }
+
+        .date {
+            font-size: 12px;
+        }
     }
 
 
@@ -101,3 +105,5 @@ ${'' /* stylings from the listcomponents */}
 `;
 
 export default GlobalStyles;
+
+export const checkmarkColor = "#2469b3";
